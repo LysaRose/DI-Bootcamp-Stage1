@@ -1,0 +1,184 @@
+first_name= "Lysa"
+last_name= "Zaoui"
+
+print("---------------------")
+print(first_name, last_name)
+print("---------------------")
+# You have a friend named Alice, and you want to send her a message with the following details:
+
+# Name: Alice
+
+# Age: 30
+
+# City: New York
+
+# Tasks:
+
+# Use f-strings to print a message saying:
+
+# "Hello, Alice! You are 30 years old and live in New York."
+
+friend_name= "Alice"
+friend_age= 30
+city= "New York"
+
+print (f"Hello {friend_name}! you are {friend_age} and live in {city}")
+
+print("---------------------")
+
+# Working with the following string:
+
+# description = "strings are..."
+
+# make it all uper case
+# replace the word "are" to "is"
+# print just the word "strings"
+
+print("strings are...")
+print("strings are..." .upper())
+print("strings are..." .replace("are", "is"))
+print("strings")
+
+print("---------------------")
+
+print( 6 + 6 )
+
+print("---------------------")
+
+#In the python shell, Create a variable called my_age, use python to know how old you will be in 123879 years
+my_age= 26
+print( my_age + 123879 )
+
+print("---------------------")
+
+# bank_balance = '33000'
+# phone_number = 532287514
+
+bank_balance = '33000'
+phone_number = 532287514
+print(bank_balance )
+print(phone_number )
+
+print( int("33000"))
+print (str(532287514))
+
+print("---------------------")
+
+print("Hello world \nMy name is Harry \nHarry Potter")
+print("Harry potter, the boy who lived \tcome to die")
+
+print("---------------------")
+
+# Given the following values:
+
+# x = 5
+# y = 10
+# z = 0
+# word1 = "hello"
+# word2 = "world"
+
+# 1. Check if x is less than y and y is greater than z.
+
+# 2. Verify if word1 is not equal to word2.
+
+# 3. Use the bool() function to check the boolean value of z and word1.
+x = 5
+y = 10
+z = 0
+word1 = "hello"
+word2 = "sunshine"
+
+print( x < y )
+print( y > z )
+print( word1 != word2)
+print ( bool( z ), bool( word1 ))
+
+print("---------------------")
+
+number = input("give us a number to multiply by 3: ")
+print(int(number) * 3) 
+
+print("---------------------")
+
+my_name = "Moana"
+my_age = "42"
+
+print("My name is " + my_name + " and I am " + my_age + " years old")
+
+print("---------------------")
+
+day = 17
+month = 12
+year = 1998
+
+print("My B-Day is on {}.{}.{}." .format(day, month, year))
+print(f"My B-Day is on {day}.{month}.{year}.")
+
+print("---------------------")
+
+# You have a friend named Alice, and you want to send her a message with the following details:
+
+# Name: Alice
+
+# Age: 30
+
+# City: New York
+
+# Tasks:
+
+# Use f-strings to print a message saying:
+
+# "Hello, Alice! You are 30 years old and live in New York."
+
+# Use str.format() to print the same message
+name = "Alice"
+age = 30
+city = "NYC"
+print("Hello, {}! you are {} years old and live in {}." .format(name, age, city))
+
+print("---------------------")
+
+number = input("what is your age?")
+print( f"you will be 100 in {100 - int(number)} years.") 
+
+print("---------------------")
+
+age = input("How old are you? ")
+print(f"You are {age} years old")
+
+print("---------------------")
+
+# 1. ask the user to enter his/her name
+
+# 2. use the len() function to check the lenght of the name. if it is less than 5 letter print('You have a short name :)')
+
+name = input("what is your name?")
+
+if len(name) < 5 :
+    print("your name is short!!")
+
+print("---------------------")
+
+#     Ask the user for a number between 1 and 100
+
+# If the number is a multiple of three, print Fizz
+
+# If the number is a multiple of five, print Buzz.
+
+# If the number is a multiple is a multiples of both three and five, print FizzBuzz instead.
+
+number = int(input("Choose a number between 1 and 100--"))
+
+if  number % 15 == 0:
+    print("FizzBizz")
+elif number % 3 == 0 :
+    print("Fizz")
+elif number % 5 == 0 :
+    print("Buzz")
+else:
+    print("LOOSER")
+
+    print("---------------------")
+
+    print("THE END")
+    
